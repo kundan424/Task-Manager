@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<!-- saved from url=(0032)http://127.0.0.1:3000/index.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><script type="text/javascript" src="./Task Manager Authentication Flow_files/___vscode_livepreview_injected_script"></script>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task Manager Authentication Flow</title>
+</head>
+<body>
+
+<svg width="700" height="700">
+
+    <!-- User Registration -->
+    <rect x="50" y="50" width="180" height="50" fill="#3498db" stroke="black" stroke-width="2"></rect>
+    <text x="70" y="80" fill="white" font-size="14">User Registers</text>
+
+    <!-- Arrow to Login -->
+    <line x1="140" y1="100" x2="140" y2="150" stroke="black" stroke-width="2"></line>
+    <polygon points="135,145 140,155 145,145" fill="black"></polygon> 
+
+    <!-- Login -->
+    <rect x="50" y="150" width="180" height="50" fill="#3498db" stroke="black" stroke-width="2"></rect>
+    <text x="90" y="180" fill="white" font-size="14">User Logs In</text>
+
+    <!-- Arrow to API Authentication -->
+    <line x1="230" y1="175" x2="300" y2="175" stroke="black" stroke-width="2"></line>
+    <polygon points="295,170 305,175 295,180" fill="black"></polygon>  
+
+    <!-- Backend Authentication -->
+    <rect x="300" y="150" width="220" height="50" fill="#e74c3c" stroke="black" stroke-width="2"></rect>
+    <text x="320" y="180" fill="white" font-size="14">API Verifies User</text>
+
+    <!-- Arrow to JWT Token Issued -->
+    <line x1="410" y1="200" x2="410" y2="250" stroke="black" stroke-width="2"></line>
+    <polygon points="405,245 410,255 415,245" fill="black"></polygon>  
+
+    <!-- Generate JWT -->
+    <rect x="300" y="250" width="220" height="50" fill="#2ecc71" stroke="black" stroke-width="2"></rect>
+    <text x="340" y="280" fill="white" font-size="14">JWT Token Issued</text>
+
+    <!-- Arrow to Request with JWT -->
+    <line x1="298" y1="275" x2="100" y2="375" stroke="black" stroke-width="2"></line>
+    <polygon points="105,370 95,375 105,380" fill="black"></polygon>  
+
+    <!-- Request with JWT -->
+    <rect x="50" y="350" width="230" height="50" fill="#f39c12" stroke="black" stroke-width="2"></rect>
+    <text x="65" y="380" fill="white" font-size="14">User Requests API with JWT</text>
+
+    <!-- Arrow to API Verifies JWT -->
+    <line x1="280" y1="375" x2="350" y2="375" stroke="black" stroke-width="2"></line>
+    <polygon points="345,370 355,375 345,380" fill="black"></polygon>  
+
+    <!-- Verify Token -->
+    <rect x="350" y="350" width="220" height="50" fill="#e67e22" stroke="black" stroke-width="2"></rect>
+    <text x="385" y="380" fill="white" font-size="14">API Verifies JWT</text>
+
+    <!-- Arrow to API Response -->
+    <line x1="460" y1="400" x2="460" y2="450" stroke="black" stroke-width="2"></line>
+    <polygon points="455,445 460,455 465,445" fill="black"></polygon>  
+
+    <!-- API Responds -->
+    <rect x="350" y="450" width="220" height="50" fill="#9b59b6" stroke="black" stroke-width="2"></rect>
+    <text x="390" y="480" fill="white" font-size="14">API Responds</text>
+
+</svg>
+
+
+
+</body></html>
