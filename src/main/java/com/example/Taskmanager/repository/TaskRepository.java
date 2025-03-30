@@ -7,7 +7,6 @@ import org.springframework.data.mongodb.repository.MongoRepository;
 
 
 public interface TaskRepository extends MongoRepository<TaskEntry , ObjectId> {
-
-// this string type should be same as datatype of id present in entity class
+    /* this string type should be same as datatype of id present in entity class */
 
 }
