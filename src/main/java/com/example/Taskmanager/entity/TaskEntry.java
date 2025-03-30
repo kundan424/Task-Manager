@@ -14,7 +14,6 @@ import java.util.Date;
 
 @Document(collection = "taskEntry")
 @Data
-@CompoundIndex(name = "uniqueTitleContent", def = "{'title': 1, 'content': 1}", unique = true)
 public class TaskEntry {
 
     @Id
